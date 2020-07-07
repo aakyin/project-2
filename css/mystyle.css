@@ -1,0 +1,242 @@
+ body{
+	font-family: Times New Roman, serif;
+	font-size: 1em;
+	margin:0;
+	padding:0;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+/*navigation*/
+.container{
+	width: 100%;
+	overflow: hidden;
+	height: 70px;
+	line-height: 120px;
+	background: #fff;
+	border-bottom: 2px solid gold;
+}
+
+/*logo*/
+.logo{
+	width:90px;
+	float: left;
+	
+}
+
+/*menu*/
+.menu{
+	float: right;
+	display: flex;
+	position: sticky;
+}
+/*menu*/
+.menu li{
+	float: left;
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	display: flex;
+}
+
+.menu li a{
+	color:#000;
+	text-decoration: none;
+	font-family: Times New Roman, serif;
+	text-transform: uppercase;
+}
+
+.menu li a:hover{
+	color: gold;
+}
+
+h1{
+ text-align: center;
+ font-family: Times New Roman, serif;
+ color: gold;
+}
+
+.images{
+	float: left;
+	font-size: 1.5em;
+	width: 600px;
+	height: 320px;
+	padding: 2px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+
+}
+
+h2{
+	text-align: center;
+	border-bottom: 5px;
+	padding: 20px;
+	color: gold;
+}
+
+/*paragraph*/
+.text{
+	text-align: center;
+	font-family: Times New Roman, serif;
+	font-size: 1em;
+}
+ 
+/*contact*/
+.contact{
+	padding: 40px;
+	font-size: 1em;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+}
+
+input, textarea{
+	padding:10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+}
+
+textarea{
+	width: 450px;
+	height: 150px;
+}
+
+ label{
+ 	color: black;
+ 	font-family: Times New Roman, serif;
+ 	font-size: 1em;
+ 	font-style: italic;
+ }
+
+ .contact, label{
+ 	margin-left: 10px;
+ 	color:black;
+ }
+
+input[type =submit] {
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type =reset] {
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+
+/*footer*/
+.facebook{
+	padding: 5px;
+	width: 40px;
+	text-decoration: none;
+	float: right;
+}
+
+.facebook:hover{
+	opacity: 0.7;
+}
+
+.instagram{
+	padding: 5px;
+	width: 40px;
+	text-decoration: none;
+	float: right;
+}
+
+.instagram:hover{
+	opacity: 0.7;
+}
+
+.snapchat{
+	padding: 5px;
+	width: 40px;
+	text-decoration: none;
+	float: right;
+}
+
+.snapchat:hover{
+	opacity: 0.8;
+}
+
+.linkedin{
+	padding: 5px;
+	width: 40px;
+	text-decoration: none;
+	float: right;
+}
+
+.linkedin:hover{
+	opacity: 0.8;
+}
+
+#footer{
+ 	border-top: 2px solid gold;
+ 	text-align: left;
+ 	width: 100%;
+ }
+
+ /*services page*/
+ .wifi{
+ 	float: left;
+ 	font-size: 1.5em;
+ 	width:300px;
+ 	height:150px;
+ 	padding: 2px;
+ 	margin-right:15px;
+ 	margin-bottom: 5px;
+ }
+
+ .beauty{
+ 	float: left;
+ 	font-size: 1.5em;
+ 	width:300px;
+ 	height:150px;
+ 	padding: 2px;
+ 	margin-right:15px;
+ 	margin-bottom: 5px;
+ }
+
+ .bar{
+ 	float: left;
+ 	font-size: 1.5em;
+ 	width:300px;
+ 	height:150px;
+ 	padding: 2px;
+ 	margin-right:15px;
+ 	margin-bottom: 5px;
+
+ }
+
+ .gift{
+ 	float: left;
+ 	font-size: 1.5em;
+ 	width:300px;
+ 	height:150px;
+ 	padding: 2px;
+ 	margin-right:15px;
+ 	margin-bottom: 5px;
+ }
+
+ hr{
+ 	width: 100%;
+}
+
+
+
+
+
+
+
+

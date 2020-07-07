@@ -1,0 +1,25 @@
+.logo{
+	display: none;
+}
+
+.menu li{
+	display: inline-flex;
+}
+
+ #footer{
+ 	display: none;
+ }
+
+textarea{
+ 	width: 200px;
+ 	height: 150px;
+ }
+
+ .images{
+ 	width: 350px;
+ 	height:320px;
+ }
+
+ iframe{
+ 	display: none;
+ }
